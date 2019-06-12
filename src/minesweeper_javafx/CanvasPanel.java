@@ -1,4 +1,4 @@
-package pj1_2018_dp_kru0144;
+package minesweeper_javafx;
 
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.image.Image;
@@ -62,16 +62,16 @@ class CanvasPanel extends Pane {
         optionsSmile.setY(18);
         optionsSmile.setX(370);
         try {
-            numbersImages.add(new Image(new FileInputStream("src\\pj1_2018_dp_kru0144\\resources\\mine_1.png"), 18, 18, true, true));
-            numbersImages.add(new Image(new FileInputStream("src\\pj1_2018_dp_kru0144\\resources\\mine_2.png"), 18, 18, true, true));
-            numbersImages.add(new Image(new FileInputStream("src\\pj1_2018_dp_kru0144\\resources\\mine_3.png"), 18, 18, true, true));
-            numbersImages.add(new Image(new FileInputStream("src\\pj1_2018_dp_kru0144\\resources\\mine_4.png"), 18, 18, true, true));
-            numbersImages.add(new Image(new FileInputStream("src\\pj1_2018_dp_kru0144\\resources\\mine_5.png"), 18, 18, true, true));
-            numbersImages.add(new Image(new FileInputStream("src\\pj1_2018_dp_kru0144\\resources\\mine_6.png"), 18, 18, true, true));
-            numbersImages.add(new Image(new FileInputStream("src\\pj1_2018_dp_kru0144\\resources\\mine_7.png"), 18, 18, true, true));
-            numbersImages.add(new Image(new FileInputStream("src\\pj1_2018_dp_kru0144\\resources\\mine_8.png"), 18, 18, true, true));
-            mineImage = new Image(new FileInputStream("src\\pj1_2018_dp_kru0144\\resources\\mine.png"), 18, 18, true, true);
-            flagImage = new Image(new FileInputStream("src\\pj1_2018_dp_kru0144\\resources\\flag.png"), 20, 20, true, true);
+            numbersImages.add(new Image(new FileInputStream("src\\minesweeper_javafx\\resources\\mine_1.png"), 18, 18, true, true));
+            numbersImages.add(new Image(new FileInputStream("src\\minesweeper_javafx\\resources\\mine_2.png"), 18, 18, true, true));
+            numbersImages.add(new Image(new FileInputStream("src\\minesweeper_javafx\\resources\\mine_3.png"), 18, 18, true, true));
+            numbersImages.add(new Image(new FileInputStream("src\\minesweeper_javafx\\resources\\mine_4.png"), 18, 18, true, true));
+            numbersImages.add(new Image(new FileInputStream("src\\minesweeper_javafx\\resources\\mine_5.png"), 18, 18, true, true));
+            numbersImages.add(new Image(new FileInputStream("src\\minesweeper_javafx\\resources\\mine_6.png"), 18, 18, true, true));
+            numbersImages.add(new Image(new FileInputStream("src\\minesweeper_javafx\\resources\\mine_7.png"), 18, 18, true, true));
+            numbersImages.add(new Image(new FileInputStream("src\\minesweeper_javafx\\resources\\mine_8.png"), 18, 18, true, true));
+            mineImage = new Image(new FileInputStream("src\\minesweeper_javafx\\resources\\mine.png"), 18, 18, true, true);
+            flagImage = new Image(new FileInputStream("src\\minesweeper_javafx\\resources\\flag.png"), 20, 20, true, true);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }

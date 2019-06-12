@@ -1,4 +1,4 @@
-package pj1_2018_dp_kru0144;
+package minesweeper_javafx;
 
 import javafx.animation.Animation;
 import javafx.animation.KeyFrame;

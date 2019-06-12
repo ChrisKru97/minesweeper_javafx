@@ -1,4 +1,4 @@
-package pj1_2018_dp_kru0144;
+package minesweeper_javafx;
 
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
@@ -26,9 +26,9 @@ class GameOptions {
         this.size = size;
         GameOptions.optionsSmile = optionsSmile;
         try {
-            smiles.add(new Image(new FileInputStream("src\\pj1_2018_dp_kru0144\\resources\\happy.png"), 28, 28, true, true));
-            smiles.add(new Image(new FileInputStream("src\\pj1_2018_dp_kru0144\\resources\\sad.png"), 28, 28, true, true));
-            smiles.add(new Image(new FileInputStream("src\\pj1_2018_dp_kru0144\\resources\\worry.png"), 28, 28, true, true));
+            smiles.add(new Image(new FileInputStream("src\\minesweeper_javafx\\resources\\happy.png"), 28, 28, true, true));
+            smiles.add(new Image(new FileInputStream("src\\minesweeper_javafx\\resources\\sad.png"), 28, 28, true, true));
+            smiles.add(new Image(new FileInputStream("src\\minesweeper_javafx\\resources\\worry.png"), 28, 28, true, true));
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
